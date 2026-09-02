@@ -1,0 +1,8 @@
+name: conda-dev-tools
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - just
+  - pre-commit
+prefix: /Users/dsml/miniconda3/envs/conda-dev-tools
