@@ -1,0 +1,16 @@
+[project]
+name = "calculus-for-machine-learning"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.11.1",
+    "numpy>=2.5.2",
+    "sympy>=1.14.0",
+]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.6.2",
+    "rust-just>=1.58.0",
+]
